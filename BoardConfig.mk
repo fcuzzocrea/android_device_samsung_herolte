@@ -21,6 +21,9 @@ DEVICE_PATH := device/samsung/herolte
 # Assert
 TARGET_OTA_ASSERT_DEVICE := heroltebmc,herolteskt,heroltektt,heroltelgt,heroltexx,herolte
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth
+
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/universal8890
 TARGET_KERNEL_CONFIG := exynos8890-herolte_defconfig
