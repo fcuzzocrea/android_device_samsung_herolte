@@ -28,6 +28,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth
 TARGET_KERNEL_SOURCE := kernel/samsung/universal8890
 TARGET_KERNEL_CONFIG := exynos8890-herolte_defconfig
 
+# Renderscript
+OVERRIDE_RS_DRIVER := libRSDriverArm.so
+
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2020-04-20
 
