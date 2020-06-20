@@ -34,10 +34,9 @@ vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000017.tlbin
 vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin
 
-# Renderscript
-vendor/lib/libRSDriverArm.so
-vendor/lib64/libRSDriverArm.so
-
-# RIL
-vendor/etc/plmn_delta.bin
-vendor/etc/plmn_se13.bin
+# Mobicore
+vendor/bin/mcDriverDaemon
+vendor/lib/libMcClient.so
+vendor/lib/libMcRegistry.so
+vendor/lib64/libMcClient.so
+vendor/lib64/libMcRegistry.so
