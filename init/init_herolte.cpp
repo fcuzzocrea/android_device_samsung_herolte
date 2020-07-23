@@ -46,7 +46,7 @@ void vendor_load_properties()
         /* heroltexx */
         property_override("ro.build.description", "heroltexx-user 8.0.0 R16NW G930FXXU2ERD5 release-keys");
         set_ro_product_prop("device", "heroltexx");
-        set_ro_product_prop("fingerprint", "samsung/heroltexx/herolte:8.0.0/R16NW/G930FXXU2ERD5:user/release-keys");
+        set_build_fingerprint("samsung/heroltexx/herolte:8.0.0/R16NW/G930FXXU2ERD5:user/release-keys");
         set_ro_product_prop("model", "SM-G930F");
         set_ro_product_prop("name", "heroltexx");
         gsm_properties("9");
@@ -54,7 +54,7 @@ void vendor_load_properties()
         /* heroltebmc */
         property_override("ro.build.description", "heroltebmc-user 8.0.0 R16NW G930W8VLS7CTB2 release-keys");
         set_ro_product_prop("device", "heroltebmc");
-        set_ro_product_prop("fingerprint", "samsung/heroltebmc/heroltebmc:8.0.0/R16NW/G930W8VLS7CTB2:user/release-keys");
+        set_build_fingerprint("samsung/heroltebmc/heroltebmc:8.0.0/R16NW/G930W8VLS7CTB2:user/release-keys");
         set_ro_product_prop("model", "SM-G930W8");
         set_ro_product_prop("name", "heroltebmc");
         gsm_properties("9");
@@ -62,7 +62,7 @@ void vendor_load_properties()
         /* herolteskt */
         property_override("ro.build.description", "herolteskt-user 8.0.0 R16NW G930SKSU3ETD2 release-keys");
         set_ro_product_prop("device", "herolteskt");
-        set_ro_product_prop("fingerprint", "samsung/herolteskt/herolteskt:8.0.0/R16NW/G930SKSU3ETD2:user/release-keys");
+        set_build_fingerprint("samsung/herolteskt/herolteskt:8.0.0/R16NW/G930SKSU3ETD2:user/release-keys");
         set_ro_product_prop("model", "SM-G930S");
         set_ro_product_prop("name", "herolteskt");
         gsm_properties("9");
@@ -70,7 +70,7 @@ void vendor_load_properties()
         /* heroltektt */
         property_override("ro.build.description", "heroltektt-user 8.0.0 R16NW G930KKKU3ETD2 release-keys");
         set_ro_product_prop("device", "heroltektt");
-        set_ro_product_prop("fingerprint", "samsung/heroltektt/heroltektt:8.0.0/R16NW/G930KKKU3ETD2:user/release-keys");
+        set_build_fingerprint("samsung/heroltektt/heroltektt:8.0.0/R16NW/G930KKKU3ETD2:user/release-keys");
         set_ro_product_prop("model", "SM-G930K");
         set_ro_product_prop("name", "heroltektt");
         gsm_properties("9");
@@ -78,7 +78,7 @@ void vendor_load_properties()
         /* heroltelgt */
         property_override("ro.build.description", "heroltelgt-user 8.0.0 R16NW G930LKLU3ETD2 release-keys");
         set_ro_product_prop("device", "heroltelgt");
-        set_ro_product_prop("fingerprint", "samsung/heroltelgt/heroltelgt:8.0.0/R16NW/G930LKLU3ETD2:user/release-keys");
+        set_build_fingerprint("samsung/heroltelgt/heroltelgt:8.0.0/R16NW/G930LKLU3ETD2:user/release-keys");
         set_ro_product_prop("model", "SM-G930L");
         set_ro_product_prop("name", "heroltelgt");
         gsm_properties("9");
